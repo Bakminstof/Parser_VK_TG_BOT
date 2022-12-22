@@ -2,3 +2,4 @@ ENV_Parser/*
 .idea/*
 *.env
 *.sql
+*.session

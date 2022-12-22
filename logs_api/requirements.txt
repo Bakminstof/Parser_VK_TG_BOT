@@ -1,0 +1,4 @@
+environs==9.5.0
+SQLAlchemy==1.4.45
+flask==2.2.2
+aiosqlite==0.17.0
