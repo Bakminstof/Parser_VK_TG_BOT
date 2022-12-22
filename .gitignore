@@ -3,3 +3,4 @@ ENV_Parser/*
 *.env
 *.sql
 *.session
+*.db

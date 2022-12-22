@@ -35,13 +35,15 @@ services:
     build:
       context: logs_api
       dockerfile: Dockerfile
+    volumes:
+      - ./bot/bot/db/logs_data/:/logs_data/
     restart: always
     ports:
       - "3003:3003"
     networks:
       - botnet
     depends_on:
-      - db
+      - bot
 
   db:
     container_name: postgres
